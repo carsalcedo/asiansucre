@@ -21,6 +21,7 @@ import Games from './components/Games';
   const b = fotos.filter(foto => foto.event == "basara" );
   const h = fotos.filter(foto => foto.event == "halloween" );
   const comida = fotos.filter(foto => foto.event == "comida" );
+  const juegos = fotos.filter(foto => foto.event == "juegos" );
 
   return (
     <div className="container mx-auto px-4">
@@ -46,7 +47,7 @@ import Games from './components/Games';
             <MaidCafe fotos={comida}/>
           </Route> 
           <Route path='/videogames'>
-            <Games/>
+            <Games fotos={juegos}/>
           </Route> 
           <Route path='/'>
             <Start/>

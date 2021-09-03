@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPlaystation} from '@fortawesome/free-brands-svg-icons'
 import {faXbox} from '@fortawesome/free-brands-svg-icons'
@@ -6,12 +6,22 @@ import {faGamepad} from '@fortawesome/free-solid-svg-icons'
 import {faLaptop} from '@fortawesome/free-solid-svg-icons'
 import game2 from '../assets/img/game3.jpg'
 import banner from '../assets/img/banner.jpg'
+import FotoCard from './FotoCard'
+import ModalGal from './ModalGal';
+import {Transition } from '@headlessui/react'
 
-const Games = () => {
+const Games = ({fotos}) => {
+  const [open, setOpen] = useState(false);
+  const [ima, setIma] = useState('');
+
+  const openModal = (image) => {
+      setIma(image);
+      setOpen(true);
+  };
     return (
 <div className="container mx-auto my-20 px-4 relative  overflow-hidden rounded-lg bg-opacity-25 ">
 <div class="mb-4">
-  <img src={banner} alt="" className='object-cover h-48 w-full rounded-full' />
+  <img src={banner} alt="" className='object-cover h-40 w-full rounded-full sm:h-48' />
 </div>
  <div class="relative bg-white overflow-hidden rounded-xl border-4 border-superGr-200">
   <div class="max-w-7xl mx-auto">
@@ -55,6 +65,23 @@ const Games = () => {
     <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={game2} alt=""/>
   </div>
 </div>
+    <div className='flex justify-center'>
+    <div className='my-4 bg-black box-content h-auto w-3/5 rounded-full py-2 px-4 border-4 border-superGr-200 sm:my-8 md:my-12'>
+      <h1 className='text-center cursor-default text-white font-rale text-2xl tracking-tight font-extrabold sm:text-4xl md:text-6xl hover:text-superPk-400 transition duration-700 ease-in-out'>
+        Nuestros Video Juegos
+      </h1>
+    </div>
+    </div>
+    <div className="mt-4 px-5 grid grid-cols-2 md:px-12 md:grid-cols-4 gap-2">
+            {fotos.map((foto) =>
+               <FotoCard key={foto.id} foto={foto} openModal={openModal}/>
+            )}
+     </div>
+
+
+    <Transition.Root show={open} as={'div'}>
+       <ModalGal ima={ima} setOpen={setOpen}/>
+    </Transition.Root>
 </div>
     )
 }

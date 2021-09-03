@@ -3,7 +3,9 @@ import Bc from '../assets/img/bc.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import {
+  Link,
+} from "react-router-dom";
 
 const Foot = () => {
     const [clicc, setClicc] = useState(false);
@@ -12,9 +14,11 @@ const Foot = () => {
         <nav className="bg-red-700 rounded-lg">
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between h-16">
+            <Link to='/'>
             <button className='mr-2'>
                 <img className=" h-10 w-auto" src={Bc} alt="Workflow"/>
             </button>
+            </Link>
             <div className="font-mansalva text-white mr-6 cursor-default hover:text-yellow-400 transition duration-700 ease-in-out">ASIAN SUCRE</div>
 
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">

@@ -139,6 +139,14 @@ import maid3 from './assets/img/maid3.jpg'
 import maid4 from './assets/img/maid4.jpg'
 import maid5 from './assets/img/maid5.jpg'
 import maid6 from './assets/img/maid6.jpg'
+import juego1 from './assets/img/juego1.jpg'
+import juego2 from './assets/img/juego2.jpg'
+import juego3 from './assets/img/juego3.jpg'
+import juego4 from './assets/img/juego4.jpg'
+import juego5 from './assets/img/juego5.jpg'
+import juego6 from './assets/img/juego6.jpg'
+import juego7 from './assets/img/juego7.jpg'
+import juego8 from './assets/img/juego8.jpg'
 
 
 
@@ -969,6 +977,54 @@ const Galeria ={
             id: 141,
             image: maid6,
             event: 'comida'
+
+        },
+        {
+            id: 142,
+            image: juego1,
+            event: 'juegos'
+
+        },
+        {
+            id: 143,
+            image: juego2,
+            event: 'juegos'
+
+        },
+        {
+            id: 144,
+            image: juego3,
+            event: 'juegos'
+
+        },
+        {
+            id: 145,
+            image: juego4,
+            event: 'juegos'
+
+        },
+        {
+            id: 146,
+            image: juego5,
+            event: 'juegos'
+
+        },
+        {
+            id: 147,
+            image: juego6,
+            event: 'juegos'
+
+        },
+        {
+            id: 148,
+            image: juego7,
+            event: 'juegos'
+
+        },
+        {
+            id: 149,
+            image: juego8,
+            event: 'juegos'
 
         },
     ],
