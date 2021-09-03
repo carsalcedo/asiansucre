@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+.card {
+    @apply rounded overflow-hidden shadow-lg;
+}
+
+body{
+    /*background: linear-gradient(to right, #870000, #190a05);*/ 
+    background: linear-gradient(rgba(0, 0, 0, .40) 0%, rgba(0, 0, 0, .3) 50%), url(./img/fondo1.jpg) no-repeat;
+    /*background:  url(./img/fondo1.jpg) no-repeat;*/
+    background-size: cover;
+   
+}
+
+#logoCard:hover img{
+    transform:translateY(-20px); 
+    transition: all 2s ease;
+   }
+/*#logoCard:hover div{
+    transform:translateY(20px); 
+    transition: all 2s ease;
+   }*/
+
+   #fotoGal:hover img{
+    transform:skewY(12deg) ; 
+    transition: all 2s ease;
+   }
+
