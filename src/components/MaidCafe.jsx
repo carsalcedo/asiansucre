@@ -34,7 +34,7 @@ const MaidCafe = ({fotos}) => {
      
     <div className="container mx-auto my-20 px-4 relative  overflow-hidden rounded-lg bg-opacity-25 ">
         <div className='py-4 px-4 grid grid-cols-1 gap-y-2 lg:grid-cols-2'>
-          <h1 className='z-10 flex justify-center text-2xl font-mansalva font-extrabold  text-white hover:text-yellow-500 sm:text-5xl lg:justify-end'>¡BIENVENIDO AMO!</h1>
+          <h1 className='z-10 flex justify-center text-2xl font-mansalva font-extrabold  text-white hover:text-yellow-500 sm:text-5xl lg:justify-end transition duration-700 ease-in-out'>¡BIENVENIDO AMO!</h1>
          <div className='flex justify-center'>
          <img src={madR} alt="" className='w-80 lg:w-96' />
          </div>
@@ -42,15 +42,15 @@ const MaidCafe = ({fotos}) => {
       </div>
       <div className="max-w-2xl mx-auto py-12 px-4 grid items-center grid-cols-1 gap-y-12 gap-x-8 sm:px-6 sm:py-20 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div>
-          <h2 className="text-3xl border-b-8 w-auto border-black font-extrabold tracking-tight text-white hover:text-yellow-500 sm:text-5xl">Aperitivos Japoneses</h2>
-          <p className="cursor-default font-rale bg-gradient-to-r from-yellow-300 to-yellow-500 rounded-lg p-3 mt-4 text-black hover:from-red-500 hover:to-red-700 hover:text-white">
+          <h2 className="text-3xl border-b-8 w-auto border-black font-extrabold tracking-tight text-white hover:text-yellow-500 sm:text-5xl transition duration-700 ease-in-out">Aperitivos Japoneses</h2>
+          <p className="cursor-default font-rale bg-gradient-to-r from-yellow-300 to-yellow-500 rounded-lg p-3 mt-4 text-black hover:from-red-500 hover:to-red-700 hover:text-white transition duration-700 ease-in-out">
             En los eventos Asian Sucre siempre ofrecimos delicisos aperitivos originarios de Japón en nuestro Maid´s Café, servidos
             en su mesa por bellisimas Maids, junto a su buen Café o Té verde.
           </p>
 
           <dl className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {features.map((feature) => (
-              <div key={feature.name} className="border-t border-black rounded-lg p-4 text-black hover:text-white bg-gradient-to-r from-yellow-300 to-yellow-500 hover:from-red-500 hover:to-red-700 ">
+              <div key={feature.name} className="border-t border-black rounded-lg p-4 text-black hover:text-white bg-gradient-to-r from-yellow-300 to-yellow-500 hover:from-red-500 hover:to-red-700 transition duration-700 ease-in-out ">
                 <dt className="font-lg font-rale cursor-default">{feature.name}</dt>
                 <dd className="mt-2 text-sm font-rale cursor-default ">{feature.description}</dd>
               </div>
@@ -64,7 +64,7 @@ const MaidCafe = ({fotos}) => {
             src={foto.image}
             onClick={() => openModal(foto.image)} 
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="bg-gray-100 rounded-lg cursor-pointer w-screen ring-4 ring-yellow-500 hover:opacity-75 "
+            className="bg-gray-100 rounded-lg cursor-pointer w-screen ring-4 ring-yellow-500 hover:opacity-75 transition duration-700 ease-in-out"
          />
          ))} 
         </div>

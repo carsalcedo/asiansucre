@@ -26,24 +26,24 @@ const Games = () => {
       <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline text-white font-rale">ZONA GAMER</span>
-            <span class="block text-superPk-400 font-rale xl:inline"> diversion y compteciones</span>
+            <span class="cursor-default block xl:inline text-white font-rale">ZONA GAMER</span>
+            <span class="cursor-default block text-superPk-400 font-rale xl:inline hover:text-superGr-200 transition duration-700 ease-in-out"> diversion y competiciones</span>
           </h1>
           <p class="mt-3 font-rale text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Zona dedicada para todo publico amante de videojuegos y que quieran pasar un rato bien entretenido con la variedad de juegos que ofrecen nuestros eventos
             Bailes, peleas, carreras, shooters y mas!
           </p>
           <div class="mt-5 flex justify-center gap-2 sm:mt-8 sm:gap-4  lg:justify-start">
-            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black md:py-4  md:px-4 md:text-6x1">
+            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black transition duration-700 ease-in-out md:py-4  md:px-4 md:text-6x1">
             <FontAwesomeIcon icon={faPlaystation}  />
             </div>
-            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black md:py-4  md:px-4 md:text-6x1">
+            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black transition duration-700 ease-in-out md:py-4  md:px-4 md:text-6x1">
             <FontAwesomeIcon icon={faXbox}  />
             </div>
-            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black md:py-4  md:px-4 md:text-6x1">
+            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black transition duration-700 ease-in-out md:py-4  md:px-4 md:text-6x1">
             <FontAwesomeIcon icon={faGamepad} />
             </div>
-            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black md:py-4  md:px-4 md:text-6x1">
+            <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-4 border border-transparent text-white bg-superPk-400 hover:bg-superGr-200 hover:text-black transition duration-700 ease-in-out md:py-4  md:px-4 md:text-6x1">
             <FontAwesomeIcon icon={faLaptop} />
             </div>
           </div>

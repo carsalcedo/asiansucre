@@ -47,25 +47,25 @@ import {
         <div className="hidden sm:block sm:ml-6">
           <div className="flex space-x-4">
           
-            <Link to="/concursos" className="text-white hover:bg-gray-700 focus:bg-gray-700 hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Concursos</Link>
+            <Link to="/concursos" className="text-white hover:bg-gray-700 focus:bg-gray-700 hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition duration-700 ease-in-out" aria-current="page">Concursos</Link>
 
-            <Link to="/shows" className="text-white hover:bg-gray-700 focus:bg-gray-700  hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">Shows</Link>
+            <Link to="/shows" className="text-white hover:bg-gray-700 focus:bg-gray-700  hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition duration-700 ease-in-out">Shows</Link>
 
-            <Link to="/maids" className="text-white hover:bg-gray-700 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">Maids</Link>
+            <Link to="/maids" className="text-white hover:bg-gray-700 focus:bg-gray-700 hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition duration-700 ease-in-out">Maids</Link>
 
-            <Link to="/videogames" className="text-white hover:bg-gray-700 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">Video Games</Link>
+            <Link to="/videogames" className="text-white hover:bg-gray-700 focus:bg-gray-700 hover:text-yellow-400 focus:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition duration-700 ease-in-out">Video Games</Link>
            
           </div>
         </div>
       </div>
       <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
         <a href="https://www.facebook.com/As%C3%ADan-Sucre-Club-303054210189146" target="_blank">
-        <button type="button" className="bg-gray-800 h-10 w-10 p-1 rounded-full text-white hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+        <button type="button" className="bg-gray-800 h-10 w-10 p-1 rounded-full text-white hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white transition duration-700 ease-in-out">
         <FontAwesomeIcon  icon={faFacebook} size='lg' />
         </button>
         </a>
         <a href="https://www.instagram.com/asian_sucre_club/?hl=es-la" target="_blank">
-        <button type="button" className="ml-2 bg-gray-800 h-10 w-10 p-1 rounded-full text-white hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+        <button type="button" className="ml-2 bg-gray-800 h-10 w-10 p-1 rounded-full text-white hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white transition duration-700 ease-in-out">
           <FontAwesomeIcon  icon={faInstagram} size='lg'/>
         </button>
         </a>
