@@ -12,6 +12,7 @@ import Galeria from './Galeria'
 import Foot from './components/Foot';
 import MaidCafe from './components/MaidCafe';
 import Games from './components/Games';
+import Concursos from './components/Concursos';
 
  const App = () => {
   const {fotos} = Galeria;
@@ -48,6 +49,9 @@ import Games from './components/Games';
           </Route> 
           <Route path='/videogames'>
             <Games fotos={juegos}/>
+          </Route> 
+          <Route path='/concursos'>
+            <Concursos/>
           </Route> 
           <Route path='/'>
             <Start/>
