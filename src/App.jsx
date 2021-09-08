@@ -13,6 +13,7 @@ import Foot from './components/Foot';
 import MaidCafe from './components/MaidCafe';
 import Games from './components/Games';
 import Concursos from './components/Concursos';
+import Shows from './components/Shows';
 
  const App = () => {
   const {fotos} = Galeria;
@@ -23,6 +24,7 @@ import Concursos from './components/Concursos';
   const h = fotos.filter(foto => foto.event == "halloween" );
   const comida = fotos.filter(foto => foto.event == "comida" );
   const juegos = fotos.filter(foto => foto.event == "juegos" );
+  const kpop = fotos.filter(foto => foto.id >= 91 && foto.id <= 93 );
 
   return (
     <div className="container mx-auto px-4">
@@ -53,7 +55,10 @@ import Concursos from './components/Concursos';
           <Route path='/concursos'>
             <Concursos/>
           </Route> 
-          <Route path='/'>
+          <Route path='/shows'>
+            <Shows fotos={kpop}/>
+          </Route> 
+          <Route path='/' exact>
             <Start/>
           </Route> 
         </Switch>

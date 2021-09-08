@@ -22,22 +22,22 @@ import {faMusic} from '@fortawesome/free-solid-svg-icons'
                 EVENTOS ASIAN SUCRE
             </h1>
         <div className="my-10 flex flex-wrap -mx-2">
-            <Link to="/maidcafe" className='sm:w-1/2 lg:w-1/4'> 
+            <Link to="/maidcafe" className='w-1/2 lg:w-1/4'> 
                 <div className="w-full px-2 my-2">
                     <CardP photo={maidcafe} titulo='Maids Café' />
                 </div>
             </Link>
-            <Link to="/winter" className='sm:w-1/2 lg:w-1/4'> 
+            <Link to="/winter" className='w-1/2 lg:w-1/4'> 
                 <div className="w-full px-2 my-2">
                     <CardP photo={winter} titulo='Winter'/>
                 </div>
             </Link>
-            <Link to="/basara" className='sm:w-1/2 lg:w-1/4'> 
+            <Link to="/basara" className='w-1/2 lg:w-1/4'> 
                 <div className="w-full px-2 my-2">
                     <CardP photo={basara} titulo='Basara Challenge' />
                 </div>
             </Link>
-            <Link to="/halloween" className='sm:w-1/2 lg:w-1/4'> 
+            <Link to="/halloween" className='w-1/2 lg:w-1/4'> 
                 <div className="w-full px-2 my-2">
                     <CardP photo={hallow} titulo='Halloweens Party' />
                 </div>
