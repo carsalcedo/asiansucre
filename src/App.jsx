@@ -27,7 +27,7 @@ import Shows from './components/Shows';
   const kpop = fotos.filter(foto => foto.id >= 91 && foto.id <= 93 );
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 h-full">
       <Router>     
         <header>
           <NavBarra/>
@@ -63,7 +63,7 @@ import Shows from './components/Shows';
           </Route> 
         </Switch>
       
-        <footer className='mt-28'>
+        <footer className=''>
           <Foot/>
         </footer>
       </Router>

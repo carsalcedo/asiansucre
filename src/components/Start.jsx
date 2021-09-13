@@ -44,7 +44,7 @@ import {faMusic} from '@fortawesome/free-solid-svg-icons'
             </Link>
         </div>
 
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden ">
         <div className="max-w-7xl mx-auto">
             <div className="relative z-10 pb-8 bg-gradient-to-r from-yellow-300 to-yellow-500  rounded-xl border-4 border-red-600 sm:pb-8 md:pb-20 lg:max-w-2xl lg:w-full ">
 
