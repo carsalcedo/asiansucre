@@ -58,7 +58,7 @@ import Shows from './components/Shows';
           <Route path='/shows'>
             <Shows fotos={kpop}/>
           </Route> 
-          <Route path='/' exact>
+          <Route path='/'>
             <Start/>
           </Route> 
         </Switch>
