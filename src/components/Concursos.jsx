@@ -28,7 +28,7 @@ const Concursos = () => {
                         </h1>
                         <p class="mt-3 font-rale text-base text-black  sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         Cada evento Asian Sucre ha sido lugar de surgiemiento de grandes talentos, ansiosos y ferviertes por querer surgir.  oportunidad grandiosa
-                        para que cada quien tenga la oportunidad de destacar y ganar fabulosos premios.
+                        para que cada quien tenga la oportunidad de destacar y ganar espectaculares premios.
                         </p>
                         <div class="mt-5 flex justify-center gap-2 sm:mt-8 sm:gap-4  lg:justify-start">
                             <div class="rounded-full text-lg shadow flex items-center justify-center px-4 py-2 border border-transparent text-white bg-red-600 hover:bg-white hover:text-black transition duration-700 ease-in-out md:py-4  md:px-4 md:text-6x1">
